@@ -1,0 +1,29 @@
+html,body{ margin: 0; padding: 0 }
+body{ font-size: 16px }
+ul,li{ margin: 0; list-style:none }
+
+.hui_mask_box{ position: fixed; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 1000}
+/* dialog css start*/
+.hui_dialog_box{ position: absolute; width: 360px; min-height: 200px; border-radius:6px; box-shadow:0 0 10px rgba(0,0,0,0.5); background: #fff; z-index: 10001}
+.hui_dialog_header{min-height: 40px; line-height:40px; background: #FB6155; text-align: center; border-top-right-radius: 6px; border-top-left-radius: 6px; 
+	color: #fff}
+.hui_dialog_close{position: absolute; right: 0; top: 0; width: 46px; height: 40px; line-height: 40px; text-align: center; color: #bbb; font-size: 18px; cursor: default;}
+.hui_dialog_close:hover{ background: #FB6155; color: #fff; border-top-right-radius: 6px}
+
+.hui_dialog_main{ padding: 20px; margin-bottom: 65px }
+.hui_dialog_footer{ display: flex; justify-content: space-around; padding:15px 10px; position: absolute; bottom: 0; right: 0; left: 0}
+.hui_footer_btn{ background: rgba(251,97,85,1); #FB6155; border: 0 none; border-radius: 4px; min-width: 78px; height: 40px; outline: none; color: #fff; padding: 0 8px; font-size: 16px; margin: 0 10px}
+.hui_footer_btn:hover{ background: rgba(251,97,85,0.85) }
+.common_main{ margin-bottom: 0; padding: 45px 20px 20px }
+.hui_promptInputBox{ margin: 12px 0 0 0; }
+.hui_promptInput{ border: 1px solid #ddd; border-radius: 4px; height: 40px;  width: 100%; box-sizing: border-box; padding:0 10px; font-size: 16px }
+/* dialog css end*/
+
+/* dialog skin css for fangSkin*/
+.fangSkin{ border-radius: 4px; box-shadow: none; border: 1px solid #dedede;}
+.fangSkin .hui_dialog_header{ background: #F3F3F3;  color: #000; font-size: 17px}
+.fangSkin .hui_dialog_main{ text-align: center; }
+.fangSkin .hui_dialog_footer{ justify-content: flex-end; }
+.fangSkin .hui_footer_btn{ background: rgba(44,117,182,1)  }
+.fangSkin .hui_footer_btn:hover{ background: rgba(44,117,182,0.85) }
+

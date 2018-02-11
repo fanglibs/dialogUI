@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>requirejsDemo</title>
+	<link rel="stylesheet" type="text/css" href="css/dialog.css" />
+	<style type="text/css">
+		.dialog_demo_btns{
+			width: 200px;
+		}
+		.dialog_demo_btns li{ margin: 10px; background: #FB6155; color: #fff; border-radius: 4px; text-align: center; font-size: 17px; height: 40px; line-height: 40px; }
+	</style>
+</head>
+<body>
+<!--本项目的dialog弹窗组件 基本于jquery and requirejs; 
+	是作者跟着慕课网的阿当老师的课程：https://www.imooc.com/learn/99 
+	所做的UI组件封装练习, 仅当学习参考资料 -->
+<h1>requirejs / dialog / demo</h1>
+<ul class="dialog_demo_btns">
+	<li class="btn_alert">alert</li>
+	<li class="btn_confirm">confirm</li>
+	<li class="btn_prompt">prompt</li>
+	<li class="btn_common">common</li>
+</ul>
+
+<script src="lib/require.js" data-main="scripts/index"></script>
+<!-- http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js -->
+
+</body>
+</html>

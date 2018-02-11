@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>requirejsDemo</title>
+	<link rel="stylesheet" type="text/css" href="css/dialog.css" />
+</head>
+<body>
+<!--这是dialog弹窗 这个项目所用的基本结模板-->
+<div>requirejs / dialog demo</div>
+
+<div class="hui_dialog_box" style="left: 10%; top: 100px">
+	<span class="hui_dialog_close">X</span>
+	<div class="hui_dialog_header">
+		这是标题区
+	</div>
+	<div class="hui_dialog_main">
+		这晨是弹窗的内容区域，请在这里写文本内容，请详细的写明要求！
+		<p><input type="text" class="hui_promptInput" placeholder="姓名" /></p>
+	</div>
+	<div class="hui_dialog_footer">
+		<input type="button" class="hui_footer_btn hui_cancelBtn" name="button2" value="取消" />
+		<input type="button" class="hui_footer_btn hui_alertBtn hui_confirmBtn" name="button1" value="确定" />
+	</div>
+</div>
+
+<!--改变皮肤的demo, 添加class: fangSkin-->
+<div class="hui_dialog_box fangSkin" style="left: 50%; top: 100px">
+	<span class="hui_dialog_close">X</span>
+	<div class="hui_dialog_header">
+		这是标题区
+	</div>
+	<div class="hui_dialog_main">
+		这晨是弹窗的内容区域，请在这里写文本内容，请详细的写明要求！
+		<p><input type="text" class="hui_promptInput" placeholder="姓名" /></p>
+	</div>
+	<div class="hui_dialog_footer">
+		<input type="button" class="hui_footer_btn hui_cancelBtn" name="button2" value="取消" />
+		<input type="button" class="hui_footer_btn hui_alertBtn hui_confirmBtn" name="button1" value="确定" />
+	</div>
+</div>
+<div class="hui_mask_box"></div>
+
+<script src="lib/require.js" data-main="scripts/index"></script>
+<!-- http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js -->
+</body>
+</html>
